@@ -23,7 +23,7 @@ const voteModule = sdk.getVoteModule(
 
 const App = () => {
 
-  // USe the connectWallet hook thirdweb gives us.
+  // Use the connectWallet hook thirdweb gives us.
   const { connectWallet, address, error, provider } = useWeb3();
   console.log("👋 Address:", address)
 
@@ -384,15 +384,15 @@ const App = () => {
     });
   }
 
-  return (
-    <div className="mint-nft">
-      <h1>Mint your free 🍦 DAO Membership NFT</h1>
-      <button
-        disabled={true}
-      >SOLD OUT
-      </button>
-    </div>
-  )
+  // return (
+  //   <div className="mint-nft">
+  //     <h1>Mint your free 🍦 DAO Membership NFT</h1>
+  //     <button
+  //       disabled={true}
+  //     >SOLD OUT
+  //     </button>
+  //   </div>
+  // )
 
   // Render mint nft screen.
   return (
